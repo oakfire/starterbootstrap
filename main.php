@@ -174,11 +174,13 @@ if ($sidebarCols < 0 || $sidebarCols >= 12) {
             </section><!-- /wrapper -->
 
             <!-- ********** FOOTER ********** -->
-            <footer id="dokuwiki__footer" class="hidden-print">
-                <ul class="doc breadcrumb pull-right">
-                    <li><?php tpl_action('top', 1, ''); ?></li>
-                    <li><?php tpl_pageinfo() /* 'Last modified' etc */ ?></li>
-                </ul>
+            <footer id="dokuwiki__footer" class="hidden-print text-center">
+                <div class="container">
+                    <ul class="doc breadcrumb pull-right">
+                        <li><?php tpl_action('top', 1, ''); ?></li>
+                        <li><?php tpl_pageinfo() /* 'Last modified' etc */ ?></li>
+                    </ul>
+                </div>
                 <?php tpl_license('button') /* content license, parameters: img=*badge|button|0, imgonly=*0|1, return=*0|1 */ ?>
             </footer><!-- /footer -->
 
