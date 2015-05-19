@@ -286,7 +286,10 @@ if (window.toolbar !== undefined) {
         'icon'  : '../../tpl/starterbootstrap/img/table.png'
     };
 }
+
+/** oak: I dont like to hide it...
 // hide toc initially
 setTimeout(function() {
-    jQNew('#toc_contents').collapse('hide');
+   jQNew('#toc_contents').collapse('hide');
 }, 10);
+*/
